@@ -143,7 +143,17 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\ECommerceWebApp\\server\\ECommerce.WebApp\\ECommerce.Common\\ECommerce.Common.csproj": {
+                "projectPath": "D:\\ECommerceWebApp\\server\\ECommerce.WebApp\\ECommerce.Common\\ECommerce.Common.csproj"
+              },
+              "D:\\ECommerceWebApp\\server\\ECommerce.WebApp\\ECommerce.Dal\\ECommerce.Dal.csproj": {
+                "projectPath": "D:\\ECommerceWebApp\\server\\ECommerce.WebApp\\ECommerce.Dal\\ECommerce.Dal.csproj"
+              },
+              "D:\\ECommerceWebApp\\server\\ECommerce.WebApp\\ECommerce.Domain\\ECommerce.Domain.csproj": {
+                "projectPath": "D:\\ECommerceWebApp\\server\\ECommerce.WebApp\\ECommerce.Domain\\ECommerce.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -155,6 +165,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
