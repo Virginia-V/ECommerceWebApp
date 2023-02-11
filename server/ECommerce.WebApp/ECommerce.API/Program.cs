@@ -1,12 +1,22 @@
+using ECommerce.API.Infrastructure.Extensions;
+using ECommerce.Bll;
+using ECommerce.Bll.Interfaces;
+using ECommerce.Bll.Services;
 using ECommerce.Dal;
+using ECommerce.Dal.Interfaces;
+using ECommerce.Dal.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped(typeof(IRepository<>), typeof(EFCoreRepository<>));
+builder.Services.AddScoped<IDeviceService, DeviceService>();
+builder.Services.AddScoped<IBrandService, BrandService>();
+builder.Services.AddScoped<ITypeService, TypeService>();
+builder.Services.AddAutoMapper(typeof(BllAssemblyMarker));
+
 builder.Services.AddDbContext<ECommerceDbContext>(optionBuilder =>
 {
     optionBuilder.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -14,14 +24,22 @@ builder.Services.AddDbContext<ECommerceDbContext>(optionBuilder =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseExceptionHandling();
+
+app.UseRouting();
+
+app.UseCors(configurePolicy => configurePolicy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

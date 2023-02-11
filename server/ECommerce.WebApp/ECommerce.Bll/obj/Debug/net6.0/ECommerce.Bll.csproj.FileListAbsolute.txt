@@ -10,3 +10,10 @@ D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Bll\obj\Debug\net6.0\EComme
 D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Bll\obj\Debug\net6.0\refint\ECommerce.Bll.dll
 D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Bll\obj\Debug\net6.0\ECommerce.Bll.pdb
 D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Bll\obj\Debug\net6.0\ref\ECommerce.Bll.dll
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Bll\bin\Debug\net6.0\ECommerce.Common.dll
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Bll\bin\Debug\net6.0\ECommerce.Dal.dll
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Bll\bin\Debug\net6.0\ECommerce.Domain.dll
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Bll\bin\Debug\net6.0\ECommerce.Common.pdb
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Bll\bin\Debug\net6.0\ECommerce.Dal.pdb
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Bll\bin\Debug\net6.0\ECommerce.Domain.pdb
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Bll\obj\Debug\net6.0\ECommerce.Bll.csproj.CopyComplete

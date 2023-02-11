@@ -77,3 +77,4 @@ D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.API\obj\Debug\net6.0\refint
 D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.API\obj\Debug\net6.0\ECommerce.API.pdb
 D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.API\obj\Debug\net6.0\ECommerce.API.genruntimeconfig.cache
 D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.API\obj\Debug\net6.0\ref\ECommerce.API.dll
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.API\bin\Debug\net6.0\Newtonsoft.Json.dll
