@@ -1,0 +1,12 @@
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Common\bin\Debug\net6.0\ECommerce.Common.deps.json
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Common\bin\Debug\net6.0\ECommerce.Common.dll
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Common\bin\Debug\net6.0\ECommerce.Common.pdb
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Common\obj\Debug\net6.0\ECommerce.Common.csproj.AssemblyReference.cache
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Common\obj\Debug\net6.0\ECommerce.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Common\obj\Debug\net6.0\ECommerce.Common.AssemblyInfoInputs.cache
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Common\obj\Debug\net6.0\ECommerce.Common.AssemblyInfo.cs
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Common\obj\Debug\net6.0\ECommerce.Common.csproj.CoreCompileInputs.cache
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Common\obj\Debug\net6.0\ECommerce.Common.dll
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Common\obj\Debug\net6.0\refint\ECommerce.Common.dll
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Common\obj\Debug\net6.0\ECommerce.Common.pdb
+D:\ECommerceWebApp\server\ECommerce.WebApp\ECommerce.Common\obj\Debug\net6.0\ref\ECommerce.Common.dll
